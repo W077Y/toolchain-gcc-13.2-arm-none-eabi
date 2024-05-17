@@ -6,7 +6,7 @@ def clean_directory(output_dir):
     # Erstelle das Verzeichnis, falls es nicht existiert
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    # L�sche alle Dateien im Verzeichnis
+    # Lösche alle Dateien im Verzeichnis
     for filename in os.listdir(output_dir):
         file_path = os.path.join(output_dir, filename)
         try:
